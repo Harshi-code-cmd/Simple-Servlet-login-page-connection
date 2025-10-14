@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Login Page</title>
+</head>
+<body style="margin:0; padding:0; font-family:Arial, sans-serif; background:linear-gradient(135deg, #6a11cb, #2575fc); height:100vh; display:flex; justify-content:center; align-items:center;">
+
+  <div style="background-color:white; padding:40px 35px; border-radius:10px; box-shadow:0 0 20px rgba(0,0,0,0.2); width:300px; text-align:center;">
+    <h2 style="margin-bottom:25px; color:#333;">Login</h2>
+    <form action="login" method="post">
+
+      <input type="text" name="username" placeholder="Username" required 
+             style="width:100%; padding:10px; margin-bottom:15px; border:1px solid #ccc; border-radius:5px; outline:none;">
+      <input type="password" name="password" placeholder="Password" required 
+             style="width:100%; padding:10px; margin-bottom:20px; border:1px solid #ccc; border-radius:5px; outline:none;">
+      <button type="submit" 
+              style="width:100%; padding:10px; background-color:#2575fc; border:none; color:white; font-weight:bold; border-radius:5px; cursor:pointer;">
+        Login
+      </button>
+    </form>
+    <p style="margin-top:15px; font-size:14px;">Don't have an account? <a href="#" style="color:#2575fc; text-decoration:none;">Sign up</a></p>
+  </div>
+
+</body>
+</html>
