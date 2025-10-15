@@ -1,6 +1,6 @@
 # 🧩 Simple Servlet Login Page
 
-A simple Java web application built using **Servlets and HTML** that demonstrates user authentication and page redirection. This project is ideal for beginners learning about **Java Servlets**, **HTTP request handling**, and **basic web form validation**.
+A simple Java web application built using **Servlets Java** and html page that demonstrates user authentication and page redirection. This project is ideal for beginners learning about **Java Servlets**, **HTTP request handling**, and **basic web form validation**.
 
 ---
 
